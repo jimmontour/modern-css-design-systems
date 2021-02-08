@@ -23,11 +23,18 @@
    <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body class="theme">
 
    <!-- Add your site or application content here -->
-   <!-- HTML5 Kitchen sink  -->
-   <main>
+   <header>
+      <h1 class="fake-logo">Fake Logo</h1>
+      <nav>
+         <a href="#">Home</a>
+         <a href="#">About</a>
+         <a href="#">Contact</a>
+      </nav>
+   </header>
+   <main class="layout">
       <section>
          <hgroup>
             <h1>h1 HTML5 Kitchen Sink</h1>
@@ -40,15 +47,6 @@
       </section>
       <hr>
       <section>
-         <header>
-            <nav>
-               <ul>
-                  <li><a href="#">Home</a></li>
-                  <li><a href="#">About</a></li>
-                  <li><a href="#">Contact</a></li>
-               </ul>
-            </nav>
-         </header>
          <article>
             <p>This paragraph is nested inside an article. It contains many different, sometimes useful, <a
                   href="https://www.w3schools.com/tags/">HTML5 tags</a>. Of course there are classics like
@@ -82,6 +80,13 @@
             </p>
          </blockquote>
       </section>
+      <hr>
+      <div class="card">
+         <h3>A Card</h3>
+         <button>Accept</button>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis ab necessitatibus nesciunt esse unde. Ea
+            saepe quis odio dolores explicabo.</p>
+      </div>
       <hr>
       <section>
          <table>
@@ -329,6 +334,8 @@ pre {
             </fieldset>
             <p>
                <button type="button" name="button">Button</button>
+               <button type="button" name="button" class="cancel">Cancel</button>
+               <button type="button" name="button" class="small">Small</button>
                <input type="button" name="input" value="Input Button">
                <input type="submit" name="submit" value="Submit Button">
                <input type="reset" name="reset" value="Reset Button">
@@ -336,11 +343,14 @@ pre {
          </form>
       </section>
    </main>
-
-   <!-- end kitchen sink -->
-
-
-
+   <footer>
+      <h3 class="fake-logo">Fake Logo</h3>
+      <nav>
+         <a href="#">Home</a>
+         <a href="#">About</a>
+         <a href="#">Contact</a>
+      </nav>
+   </footer>
 
    <script src="js/vendor/modernizr-3.11.2.min.js"></script>
    <script src="js/plugins.js"></script>
