@@ -40,7 +40,7 @@
 
    /* Fonts */
    --headingFont: "Space Mono", monospace;
-   --bodyFont: "Work Sans", sans-serif;
+   --bodyFont: sans-serif;
 
    /* Z- Index */
    --headerLevel: 10;
